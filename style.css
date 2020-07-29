@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,500,700");
+@import url("https://fonts.googleapis.com/css?family=Alegreya");
+@import url("https://fonts.googleapis.com/css?family=Rubik+Mono+One");
+@import url("https://fonts.googleapis.com/css?family=Bungee");
+* {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  -webkit-transition: all 250ms ease,background 250ms ease,color 250ms ease,border-color 250ms ease,opacity 250ms ease, background-image 250ms ease, background-size 250ms ease;
+  transition: all 250ms ease,background 250ms ease,color 250ms ease,border-color 250ms ease,opacity 250ms ease, background-image 250ms ease, background-size 250ms ease;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+::-moz-selection { 
+background: #111419; 
+color: #8973ff;
+}
+
+::selection {
+background: #111419;
+color: #8973ff;
+}
+
+.maincards {
+  min-width: 100%;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+}
+h1 {
+  font-size: 15px;
+  color: #050709;
+}
+
+.maincard {
+  background-size: 100%;
+  height: 160px;
+  width: 350px;
+  box-shadow: 1px 1px 4px black;
+  border-radius: 5px;
+  margin: 1em .5em;
+  -webkit-box-flex: 30%;
+          flex: 30%;
+  background-position: top center;
+}
+
+
+.parent {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.maincover {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 5px;
+  position: relative;
+}
+
+.covertitle {
+  display: -webkit-box;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.adblock {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  align-content: center;
+  margin: 2em;
+  padding: 1em 2em;
+  background-color: #002951;
+  width: 100%;
+  border-radius: 5px;
+  border-bottom: 4px solid #00509d;
+  box-shadow: 1px 1px 4px black;
+}
+
+.nav {
+  display: -webkit-box;
+  display: flex;
+}
+
+.cards {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: center;
+          justify-content: center;
+  align-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: flex;
+  width: 100%;
+  justify-items: space-around;
+  justify-content: space-around;
+  padding: 1em 2em;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  height: 45px;
+}
+
+.message {
+  text-align: center;
+}
+
+.main {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  align-content: center;
+}
+
+.nav a {
+  padding: 1em 2em;
+  color: #c8c8c8;
+  font-weight: bold;
+}
+.nav a:hover {
+  color: #78a9c1;
+}
+
+.container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  width: 100%;
+  max-width: 1080px !important;
+}
+
+.banner-1 {
+  background-color: #8973ff;
+  border-left: 4px solid #8973ff;
+}
+
+.banner-2 {
+  background-color: #8973ff;
+  border-left: 4px solid #8973ff;
+}
+.banner-3 {
+  background-color: #0b0f12;
+  border-left: 4px solid #0b0f12;
+}
+.banner-Casual {
+  background-color: #ffe063;
+  border-left: 4px solid #dec354;
+}
+
+.banner-Indie {
+  background-color: #d181ff;
+  border-left: 4px solid #bb73e5;
+}
+
+.banner-Racing {
+  background-color: #ffa563;
+  border-left: 4px solid #e69559;
+}
+
+.banner-Multiplayer {
+  background-color: #63e3ff;
+  border-left: 4px solid #4cc1db;
+}
+
+.banner {
+  padding: .5em 1em;
+  position: absolute;
+  font-weight: 600;
+  top: -10px;
+  left: -14px;
+  color: #b3b3b3;
+  box-shadow: 1px 1px 4px #0d0d0d;
+  text-shadow: 1px 1px 4px #0d0d0d;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.banner:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -4px;
+  top: 100%;
+  border-width: 10px 0 0 10px;
+  border-style: solid;
+  border-color: #000c18 transparent transparent;
+}
+
+.One {
+  border-left: 4px solid #8973ff;
+}
+
+.Two {
+  border-left: 4px solid #8973ff;
+}
+
+.Casual {
+  border-left: 4px solid #ffe063;
+}
+
+.Indie {
+  border-left: 4px solid #d181ff;
+}
+
+.Racing {
+  border-left: 4px solid #ffa563;
+}
+
+.Multiplayer {
+  border-left: 4px solid #63e3ff;
+}
+
+.yellow {
+  border-left: 4px solid #96960a;
+}
+
+.card {
+  width: 47%;
+  height: 270px;
+  display: -webkit-box;
+  display: flex;
+  margin: 1em;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.cover {
+  background-color: rgba(10, 10, 10, 0.7);
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  margin-left: -4px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  position: relative;
+  background-image: url("#");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.maincard-text {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  flex-wrap: nowrap;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: stretch;
+          align-items: stretch;
+  align-content: stretch;
+  height: 100%;
+}
+
+.author-box {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  flex-wrap: nowrap;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: stretch;
+          align-items: stretch;
+  align-content: stretch;
+  height: 100%;
+  border-bottom-right-radius: 5px;
+}
+
+.author {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0 10px;
+  border-bottom-right-radius: 5px;
+}
+
+.title {
+  display: -webkit-box;
+  display: flex;
+  justify-items: flex-end;
+  -webkit-box-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #9dcfff;
+  text-shadow: 1px 1px 4px black;
+}
+
+.title h1 {
+  font-size: 150%;
+  padding: 0 10px;
+  letter-spacing: .5px;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 2px 2px black;
+}
+
+.cover:hover, .maincover:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.cover:hover h1, .maincover:hover h1 {
+  color: white;
+  background-color: rgba(0, 15, 30, 0.9);
+  width: 100%;
+  padding: 15px 0;
+}
+
+.card:hover {
+  box-shadow: 1px 5px 8px rgba(55, 157, 255, 0.2);
+}
+
+.card:hover, .maincard:hover {
+  background-size: 120%;
+  background-position: top center;
+  -webkit-transition: background-size .3s ease;
+  transition: background-size .3s ease;
+}
+
+.card-img h2 {
+  font-family: 'Rubik Mono One', sans-serif;
+  letter-spacing: .05em;
+  line-height: .5em;
+}
+
+.card-img {
+  line-height: 10px;
+  overflow: hidden;
+  color: rgba(220, 220, 220, 0.9);
+  text-shadow: 1px 1px 4px black;
+}
+
+.date {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #fff;
+}
+.tags {
+  font-size: 8px;
+  color: #fff;
+}
+
+.author-name {
+  color: #8973ff;
+}
+
+body {
+    background: url(Genre/Games/Files/Images/Background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #13161c;
+}
+
+@media (max-width: 945px) {
+  .cards {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: center;
+            justify-content: center;
+    width: 95%;
+    height: 100%;
+  }
+
+  .card {
+    width: 100%;
+    background-size: 130%;
+  }
+  .card:hover {
+    background-size: 160%;
+  }
+  .card h1 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .maincard:hover {
+    background-size: 200%;
+  }
+
+  .maincard {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 180%;
+  }
+  .maincard h1 {
+    margin-top: 25%;
+    font-size: 1.2em;
+  }
+
+  .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    text-align: center;
+  }
+  .nav a {
+    display: none;
+  }
+  .nav .logo {
+    width: 150px;
+    height: 38px;
+    margin: 0 auto;
+  }
+    
+}
+
