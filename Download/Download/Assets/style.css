@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+a:link {
+  text-decoration: none;
+  outline: none;
+  transition: all 0.25s;
+}
+
+a:visited,
+a:link:hover,
+a:visited:hover {
+  text-decoration: none;
+}
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+  background-image: url("Images/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+	}
+}
+
+h1,
+h6 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	right: 0;
+	left: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  line-height: normal;
+}
+
+.container {
+  background:rgba(0,0,0,0.4);
+  max-width: 320px;
+  margin: 4% auto;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.container h1 {
+  background:rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 20px 0;
+  font-size: .-18em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  vertical-align: middle;
+  padding: 0 12px 20px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.button2 {
+  float: left;
+  list-style: none;
+  text-align: center;
+  width: 95%;
+  margin: 10px;
+  padding: 2px;
+  font-size: 14px;
+  clear: both;
+}
+
+.button2 ul {
+  margin: 0;
+  padding: 0
+}
+
+.button2 li {
+  display: inline;
+  margin: 5px;
+  padding: 0;
+  list-style: none;
+}
+
+.button2 li a.demo,
+.button2 li a.download {
+  position: relative;
+  padding: 14px 108px 14px 16px;
+  background: #8a73ff;
+  display: block;
+  color: #fff!important;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: .2px;
+  border-radius: 3px;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.1);
+  line-height: normal;
+  transition: all .3s;
+  max-width: 170px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.button2 li a.download {
+  background: #ff4b5d;
+}
+
+.button2 li a.demo:hover,
+.button2 li a.download:hover {
+  background: #22242a;
+}
+
+.button2 li a.demo:active,
+.button2 li a.download:active {
+  cursor: pointer;
+}
+
+.button2 li a.demo:after,
+.button2 li a.download:after {
+  content: '\F054';
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-weight: normal;
+  display: inline-block;
+  margin: 0 0 0 10px;
+  color: #fff;
+  padding: 16px 24px;
+  font-family: fontawesome;
+  transition: all .3s;
+}
+
+.button2 li:hover a.demo:after,
+.button2 li:hover a.download:after {
+  background: transparent;
+  -webkit-animation: bounceright .3s alternate ease infinite;
+  animation: bounceright .3s alternate ease infinite;
+}
+
+@-webkit-keyframes bounceright {
+  from {
+    -webkit-transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(3px);
+  }
+}
+
+@keyframes bounceright {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(3px);
+  }
+}

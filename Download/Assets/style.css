@@ -1,0 +1,69 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url("Images/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+div#loader {
+  height: 100%;
+}
+div#loader div.center {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: calc(50% - 10px);
+  background-color: rgba(255, 255, 255, 0.05);
+  height: 20px;
+  border-radius: 4px;
+  padding: 10px;
+}
+div#loader span.percentage {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  color: white;
+  font-family: verdana;
+  font-size: 9px;
+}
+div#loader span.percentage:after {
+  content: '%';
+}
+div#loader div.elapsed-time {
+  position: absolute;
+  bottom: -30px;
+  right: 10px;
+  color: #8a73ff;
+  font-family: verdana;
+  font-size: 9px;
+}
+div#loader div.bar {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.03);
+  height: 100%;
+  border-radius: 4px;
+}
+div#loader div.progress, div#loader div.progression-wrapper:before {
+  position: absolute;
+  left: 0;
+  top: calc(50% - 1px);
+  height: 2px;
+  background-color: #8a73ff;
+  width: 100%;
+}
+div#loader div.progression-wrapper {
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100%;
+}
+div#loader div.progression-wrapper:before {
+  content: '';
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.2);
+}
